@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class arithmatic {
     public static void main(String[] args) {
         int a = 2;
@@ -15,7 +17,7 @@ public class arithmatic {
         System.out.println(div);
         System.out.println(div2);
         System.out.println(mod);
-        
+
         //Increment
         // a++;
         // System.out.println(a);
@@ -27,7 +29,13 @@ public class arithmatic {
         // System.out.println(--b);
         // System.out.println(b++);
 
-        //max print
+        //max  min print
         System.out.println(Math.max(a, b));
+        System.out.println(Math.min(a, b));
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Input Your Age: ");
+        float age = sc.nextFloat();
+        System.out.println(age);
     }
 }
