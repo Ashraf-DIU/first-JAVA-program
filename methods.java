@@ -16,6 +16,7 @@ public class methods {
         printName("Aman");
         printName("Akku");
         printSum(6, 7);
+
         
         //Try-Match in expectations
         // int [] marks = {98, 97, 78};
